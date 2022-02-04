@@ -1,0 +1,69 @@
+.tabWrapper{
+  display: flex;
+  text-align: center;
+  overflow: scroll;
+  max-width: 100vw;
+  min-width: 10px;
+  scrollbar-width: none;
+  margin-bottom: 15px;
+}
+
+.tab {
+  display: flex;
+  padding: 5px 10px;
+  background-color: rgba(243, 244, 246, 1);
+  color: rgba(107, 114, 128, 1);
+  outline: none;
+  align-items: center;
+}
+
+.overallWrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.activeTab {
+  display: flex;
+  background-color: white;
+  padding: 5px 10px;
+  border: 1px ;
+  border-bottom: 1px transparent;
+  box-shadow: 0 4px 3px rgba(0, 0, 0, 0.2);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+input {
+  outline: none;
+  border: none; 
+  background-color: transparent;
+  border-top-left-radius: 50px;
+  border-radius: 100px;
+}
+
+input:focus {
+  outline:none
+}
+
+.layout {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(249, 250, 251, 1);
+}
+
+.xButton{
+  outline: none;
+  border:none;
+  background-color: transparent;
+
+}
+
+
+.hidden {
+  display: none;
+}
+
+.content {
+  flex-grow: 1;
+}

@@ -1,0 +1,11 @@
+.excalidrawWrapper {
+	height: 100%;
+	margin: 0px 15px -15px 15px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+	padding: none;
+}
+
+.overallWrapper {
+	height: 100%;
+	width: 100%;
+}
